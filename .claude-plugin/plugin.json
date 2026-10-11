@@ -1,0 +1,19 @@
+{
+  "name": "serpel",
+  "displayName": "Serpel",
+  "version": "0.2.0",
+  "description": "Ask Claude about your SEO data: rankings, Search Console performance, keyword opportunities, competitors and technical audit results from your Serpel projects.",
+  "author": {
+    "name": "Serpel",
+    "url": "https://serpel.app"
+  },
+  "homepage": "https://serpel.app",
+  "repository": "https://github.com/Serpelapp/serpel-plugin",
+  "license": "MIT",
+  "keywords": ["seo", "rankings", "search-console", "keyword-research", "site-audit", "competitors", "mcp"],
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://serpel.app/developers/mcp",
+  "supportUrl": "https://serpel.app/about#how-can-you-contact-serpel",
+  "privacyPolicyUrl": "https://serpel.app/privacy",
+  "termsOfServiceUrl": "https://serpel.app/terms"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "serpel",
+  "version": "0.2.0",
+  "description": "SEO rankings, Search Console performance, keyword opportunities, competitors and technical audit results from your Serpel projects.",
+  "mcpServers": {
+    "serpel": {
+      "httpUrl": "https://serpel.app/mcp"
+    }
+  }
+}

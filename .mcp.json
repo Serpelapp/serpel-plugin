@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "serpel": {
+      "type": "http",
+      "url": "https://serpel.app/mcp"
+    }
+  }
+}

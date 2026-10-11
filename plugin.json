@@ -1,0 +1,51 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "serpel",
+  "version": "0.2.0",
+  "description": "Ask about the SEO data of your own websites: keyword rankings, search performance, keyword opportunities, competitors and technical audit results from your Serpel projects.",
+  "author": {
+    "name": "Serpel",
+    "url": "https://serpel.app"
+  },
+  "homepage": "https://serpel.app",
+  "repository": "https://github.com/Serpelapp/serpel-plugin",
+  "license": "MIT",
+  "keywords": [
+    "seo",
+    "rankings",
+    "search-console",
+    "keyword-research",
+    "site-audit",
+    "competitors",
+    "mcp"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Serpel",
+        "shortDescription": "SEO rankings and audits",
+        "longDescription": "Serpel is an SEO tool for website owners and developers. Connect your Serpel account and ask questions about the search data of your own websites. Get the latest keyword positions and how they changed, clicks and impressions from the search data you connected, queries on positions 4 to 20 that could move up, how your site compares with the competitors you track, how often your site is cited or mentioned in the AI search answers you track, and the technical issues from your latest site crawl with a fix for each. Keyword rankings, the site audit, keyword opportunities and AI search visibility appear as interactive cards with sortable tables. Every tool only reads data from projects you own or were invited to, and Serpel never changes your website. Limitations: answers are based on the checks that already ran in Serpel (site crawls, rank checks, AI search checks) and on the search data you connected in the Serpel dashboard; the tools do not start new checks.",
+        "developerName": "Serpel",
+        "category": "Data & Analytics",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://serpel.app",
+        "privacyPolicyURL": "https://serpel.app/privacy",
+        "termsOfServiceURL": "https://serpel.app/terms",
+        "supportURL": "https://serpel.app/about#how-can-you-contact-serpel",
+        "defaultPrompt": [
+          "Which of my keywords can reach the top 3 with little effort?",
+          "Summarize the SEO health of my site and list the most important fixes.",
+          "How do I compare with my competitors for my tracked keywords?"
+        ],
+        "brandColor": "#2563EB",
+        "logo": "./assets/icon.png",
+        "composerIcon": "./assets/icon.png"
+      },
+      "publication": {
+        "release_notes": "Adds AI search visibility and interactive cards for keyword rankings, the site audit, keyword opportunities and AI search visibility. Includes read tools for projects, rankings, search performance, competitors, crawl issues and job status."
+      }
+    }
+  }
+}
